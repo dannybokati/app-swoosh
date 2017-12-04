@@ -13,6 +13,7 @@
 		A3ADD0421FD06E720087FA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3ADD0411FD06E720087FA07 /* Assets.xcassets */; };
 		A3ADD0451FD06E720087FA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3ADD0431FD06E720087FA07 /* LaunchScreen.storyboard */; };
 		A3ADD04F1FD078A90087FA07 /* Border-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ADD04E1FD078A90087FA07 /* Border-Button.swift */; };
+		A3BA7A5A1FD5AD7200B081DE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BA7A591FD5AD7200B081DE /* Player.swift */; };
 		A3D376DF1FD53F03000F3717 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D376DE1FD53F03000F3717 /* SkillVC.swift */; };
 		A3D376E11FD53F2F000F3717 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D376E01FD53F2F000F3717 /* LeagueVC.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		A3ADD0441FD06E720087FA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3ADD0461FD06E720087FA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3ADD04E1FD078A90087FA07 /* Border-Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Border-Button.swift"; sourceTree = "<group>"; };
+		A3BA7A591FD5AD7200B081DE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		A3D376DE1FD53F03000F3717 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		A3D376E01FD53F2F000F3717 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +62,7 @@
 		A3ADD0391FD06E720087FA07 /* App-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				A3BA7A581FD5AD4000B081DE /* Models */,
 				A3D376DB1FD53EAD000F3717 /* Controllers */,
 				A3ADD04D1FD0779B0087FA07 /* Views */,
 				A3ADD03A1FD06E720087FA07 /* AppDelegate.swift */,
@@ -77,6 +80,14 @@
 				A3ADD04E1FD078A90087FA07 /* Border-Button.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A3BA7A581FD5AD4000B081DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3BA7A591FD5AD7200B081DE /* Player.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A3D376DB1FD53EAD000F3717 /* Controllers */ = {
@@ -165,6 +176,7 @@
 				A3ADD03D1FD06E720087FA07 /* welcomeVC.swift in Sources */,
 				A3ADD04F1FD078A90087FA07 /* Border-Button.swift in Sources */,
 				A3D376DF1FD53F03000F3717 /* SkillVC.swift in Sources */,
+				A3BA7A5A1FD5AD7200B081DE /* Player.swift in Sources */,
 				A3ADD03B1FD06E720087FA07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

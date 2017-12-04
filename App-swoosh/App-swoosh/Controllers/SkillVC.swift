@@ -9,10 +9,12 @@
 import UIKit
 
 class SkillVC: UIViewController {
+    
+    var player1: player!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(player1.desiredLeague)
         // Do any additional setup after loading the view.
     }
 
