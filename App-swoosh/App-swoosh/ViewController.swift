@@ -14,9 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var bgImg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        swoosh.frame = CGRect(x: view.frame.width/2 - swoosh.frame.width/2, y: 50, width: swoosh.frame.width, height: swoosh.frame.height)
-        bgImg.frame = view.frame
-    }
+            }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
